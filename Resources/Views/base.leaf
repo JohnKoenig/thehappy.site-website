@@ -13,9 +13,8 @@
   <h1>#import("title")</h1>
   <h2>#import("body")</h2>
   <footer>
-    <p><a href="/">Home Page</a></p>
+    <p>Be Great!</p>
     <p><a href="/happy">Happy Page</a></p>
-    <p><a href="https://www.johnkoenig.ninja">www.JohnKoenig.ninja</a></p>
   </footer>
 </body>
 </html>
