@@ -1,0 +1,4 @@
+#extend("base"):
+  #export("title",title)
+  #export("body",body)
+#endextend
