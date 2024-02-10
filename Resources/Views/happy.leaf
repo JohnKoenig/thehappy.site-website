@@ -13,11 +13,11 @@
   <div class="main-content-happy">
   <p class="happy-heading">You are...</p>
   <p class="happy-main">#(body)</p>
-  <p><a href="/happy"><img src="/images/refresh-button.png" alt="refresh" width="100"></a></p>
+  <p><a href="/"><img src="/images/refresh-button.png" alt="refresh" width="100"></a></p>
   </div>
   <footer>
     <p>Be Great!</p>
-    <p><a href="/happy">Happy Page</a></p>
+    <p><a href="/">Happy Page</a></p>
   </footer>
 </body>
 </html>
