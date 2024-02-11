@@ -30,6 +30,29 @@ func routes(_ app: Application) throws {
         return req.view.render("happy", ["body": strResponse.randomElement(),"bgcolor": strBGColor.randomElement()])
     }
     
+    app.get ("challenge") { req in
+        let strChallenge :Set = ["Make someone smile.",
+                                 "Give a compliment.",
+                                 "Clean an area someone else uses.",
+                                 "Bring someone a coffee, tea, or water.",
+                                 "Help someone finish a chore.",
+                                 "Send someone a complementary letter, email, or text message.",
+                                 "Send someone a small gift card with a note.",
+                                 "Call a family memnber you haven't spoken to in a while.",
+                                 "Ask someone about their family.",
+                                 "Complement a coworder to their supervisor."
+                                 ]
+        
+        let strBGColor: Set = ["#ff9a55",
+                               "#ffea6c",
+                               "#54fffb",
+                               "#e7b2ff",
+                               "#89ffcc"
+                               ]
+        
+        return req.view.render("challenge", ["body": strChallenge.randomElement(),"bgcolor": strBGColor.randomElement()])
+    }
+    
     app.get ("goodnews") { req in
         return req.view.render("goodnews", ["body": "1"])
     }

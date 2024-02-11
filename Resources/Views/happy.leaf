@@ -16,8 +16,9 @@
   <p><a href="/"><img src="/images/refresh-button.png" alt="refresh" width="100"></a></p>
   </div>
   <footer>
-    <p><a href="/goodnews">Good News Network</a></p>
     <p><a href="/">Happy Page</a></p>
+    <p><a href="/challenge">Challenge Page</a></p>
+    <p><a href="/goodnews">Good News Network</a></p>
   </footer>
 </body>
 </html>
