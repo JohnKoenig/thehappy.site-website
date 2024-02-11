@@ -1,0 +1,3 @@
+#extend("base"):
+  #export("body", "<iframe src='https://widgets.sociablekit.com/rss-feed/iframe/25362513' frameborder='0' width='100%' height='1000'></iframe>")
+#endextend

@@ -28,7 +28,10 @@ func routes(_ app: Application) throws {
                                ]
         
         return req.view.render("happy", ["body": strResponse.randomElement(),"bgcolor": strBGColor.randomElement()])
-        //return req.view.render("happy", ["body": strResponse[Int.random(in:1..<10)]])
+    }
+    
+    app.get ("goodnews") { req in
+        return req.view.render("goodnews", ["body": "1"])
     }
     
 }
