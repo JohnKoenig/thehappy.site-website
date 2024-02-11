@@ -4,7 +4,7 @@ import Foundation
 func routes(_ app: Application) throws {
 
     app.get { req in
-        let strResponse2 :Set = ["Great!",
+        let strResponse :Set = ["Great!",
                                  "Super!",
                                  "Amazing!",
                                  "Wow!",
@@ -20,7 +20,14 @@ func routes(_ app: Application) throws {
                                  "Spectacle to Behold!"
                                  ]
         
-        return req.view.render("happy", ["body": strResponse2.randomElement()])
+        let strBGColor: Set = ["#ff9a55",
+                               "#ffea6c",
+                               "#54fffb",
+                               "#e7b2ff",
+                               "#89ffcc"
+                               ]
+        
+        return req.view.render("happy", ["body": strResponse.randomElement(),"bgcolor": strBGColor.randomElement()])
         //return req.view.render("happy", ["body": strResponse[Int.random(in:1..<10)]])
     }
     
