@@ -13,7 +13,6 @@
   <h1>#import("title")</h1>
   <h2>#import("body")</h2>
   <footer>
-    <p><a href="https://www.dogoftheday.com" target="_blank">Dog of the Day</a></p>
     <p><a href="/goodnews">Good News Network</a></p>
     <p><a href="/">Happy Page</a></p>
   </footer>
