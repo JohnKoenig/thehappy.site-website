@@ -40,7 +40,7 @@ func routes(_ app: Application) throws {
                                  "Send someone a small gift card with a note.",
                                  "Call a family memnber you haven't spoken to in a while.",
                                  "Ask someone about their family.",
-                                 "Complement a coworder to their supervisor."
+                                 "Complement a coworker to their supervisor."
                                  ]
         
         let strBGColor: Set = ["#ff9a55",
