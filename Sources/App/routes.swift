@@ -52,9 +52,4 @@ func routes(_ app: Application) throws {
         
         return req.view.render("challenge", ["body": strChallenge.randomElement(),"bgcolor": strBGColor.randomElement()])
     }
-    
-    app.get ("goodnews") { req in
-        return req.view.render("goodnews", ["body": "1"])
-    }
-    
 }
