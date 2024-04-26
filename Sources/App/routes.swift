@@ -38,7 +38,7 @@ func routes(_ app: Application) throws {
                                  "Help someone finish a chore.",
                                  "Send someone a complementary letter, email, or text message.",
                                  "Send someone a small gift card with a note.",
-                                 "Call a family memnber you haven't spoken to in a while.",
+                                 "Call a family member you haven't spoken to in a while.",
                                  "Ask someone about their family.",
                                  "Complement a coworker to their supervisor."
                                  ]
