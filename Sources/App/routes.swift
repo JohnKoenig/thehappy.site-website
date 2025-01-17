@@ -20,8 +20,7 @@ func routes(_ app: Application) throws {
                                  "Spectacle to Behold!"
                                  ]
         
-        let strBGColor: Set = ["#ff9a55",
-                               "#ffea6c",
+        let strBGColor: Set = ["#ffea6c",
                                "#54fffb",
                                "#e7b2ff",
                                "#89ffcc"
