@@ -1,6 +1,3 @@
-body {
-    background-color: #047af4;
-}
 h1 {
     text-align: center;
     font-family: 'Inter';
@@ -11,7 +8,7 @@ h2 {
     text-align: center;
     font-family: 'Inter';
     color: white;
-    font-size: 5vmin;
+    font-size: 6vmin;
 }
 p {
     text-align: center;
