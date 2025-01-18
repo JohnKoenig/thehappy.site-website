@@ -3,8 +3,19 @@ import Foundation
 
 func routes(_ app: Application) throws {
 
+    app.get ("about") { req in
+        //let myTitle = "Welcome!"
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US")
+        dateFormatter.timeZone = TimeZone(abbreviation: "EST")
+        dateFormatter.dateStyle = .long
+        dateFormatter.timeStyle = .medium
+        let myDate = dateFormatter.string(from: Date())
+        return req.view.render("standard", ["title": "Swift on Vapor!", "body": myDate])
+    }
+    
     app.get { req in
-        let strResponse :Set = ["Great!",
+        let strResponse2 :Set = ["Great!",
                                  "Super!",
                                  "Amazing!",
                                  "Wow!",
@@ -20,15 +31,9 @@ func routes(_ app: Application) throws {
                                  "Spectacle to Behold!"
                                  ]
         
-        let strBGColor: Set = ["#ffea6c",
-                               "#54fffb",
-                               "#e7b2ff",
-                               "#89ffcc"
-                               ]
-        
-        return req.view.render("happy", ["body": strResponse.randomElement(),"bgcolor": strBGColor.randomElement()])
+        return req.view.render("happy", ["body": strResponse2.randomElement()])
     }
-    
+      
     app.get ("challenge") { req in
         let strChallenge :Set = ["Make someone smile.",
                                  "Give a compliment.",
@@ -42,8 +47,7 @@ func routes(_ app: Application) throws {
                                  "Complement a coworker to their supervisor."
                                  ]
         
-        let strBGColor: Set = ["#ff9a55",
-                               "#ffea6c",
+        let strBGColor: Set = ["#ffea6c",
                                "#54fffb",
                                "#e7b2ff",
                                "#89ffcc"

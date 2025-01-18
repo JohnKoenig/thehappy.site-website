@@ -17,6 +17,10 @@
   <footer>
     <p><a href="/">Happy Page</a></p>
     <p><a href="/challenge">Challenge Page</a></p>
+    <p style="color:grey;">Timer App</p>
+    <p style="color:grey;">Gas Calculator</p>
+    <p><a href="/about">About</a></p>
+    <p><a href="https://www.johnkoenig.ninja">www.JohnKoenig.ninja</a></p>
   </footer>
 </body>
 </html>
